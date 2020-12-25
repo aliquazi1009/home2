@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact | Let's talk with us</title>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css + bts-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product-slider.css">
+    <link rel="stylesheet" href="./css/pidie-0.0.8.css">
+
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="./js/pidie-0.0.8.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+
+    <!-- other js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="./js/fontAwesomeIcons.js"></script>
+    <script src="./js/navbarScripts.js"></script>
+    <script src="./js/product-slider.js"></script>
+    <script src="./js/auto-typed.js"></script>
+    <!-- <script src="./js/anime.min.js"></script> -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                7 STAR
+                <!-- <img src="./img/logo/logo4.png" height="55" alt="" loading="lazy"> -->
+            </a>
+
+            <button class="navbar-toggler" type="button" onclick="openSideNavOuter()">
+                <span class="hamburger">
+                    <img id="logo" src="./img/icons/menu-light.png" alt="" width="35px">
+                </span>
+            </button>
+
+            <!-- Primary side menu panel -->
+            <div id="sideNavOuter" class="side-nav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSideNavOuter()">&times;</a>
+                <div class="side-nav-content">
+                    <a href="index.html"> <i class="fad fa-home-lg-alt"></i>&nbsp; Home</a>
+                    <a href="#"> <i class="fad fa-layer-group"></i>&nbsp; Products</a>
+                    <a href="about.html"> <i class="fad fa-info-circle"></i>&nbsp; About</a>
+                    <a href="contact.html"> <i class="fad fa-at"></i>&nbsp; Contact</a>
+                </div>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"> <a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Header -->
+    <section class="header">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="content">
+                <h1>We'd love to hear from you</h1>
+                <p>Want to find out how we can solve problems specific to your business? Let's talk.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Main Outer -->
+    <section class="jumbotron contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-7 col-lg-7">
+                    <h1 class="d-inline-block">Get in Touch</h1>
+                    <p>Have a question or comment? Drop us a line.</p>
+                    <img src="./img/icons/mail-send.png" class="d-md-block">
+                    <!-- <i class="fad fa-envelope-open" style="font-size: 35px;float: right;color:#262a34"></i> -->
+                    <div class="form-box">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputWrap">
+                                        <input type="text" class="form-input" id="inputName" autocomplete="off"
+                                            required>
+                                        <span class="inputLabel">Name</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="inputWrap">
+                                        <input type="text" class="form-input" id="inputEmail" autocomplete="off"
+                                            required>
+                                        <span class="inputLabel">Email</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputWrap">
+                                        <div class="pd-telephone-input">
+                                            <input type="tel" class="form-input" style="padding-left: 65px" id="inputContact" autocomplete="off" required>
+                                        </div>
+                                        <span class="inputLabel">Mobile</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="inputWrap">
+                                        <input type="text" class="form-input" id="inputComapny" autocomplete="off"
+                                            required="false">
+                                        <span class="inputLabel">Company Name</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="inputWrap">
+                                        <textarea name="" class="form-input" style="height: auto;" autocomplete="off"
+                                            id="inputComapny" rows="5" required></textarea>
+                                        <span class="inputLabel">Describe Your Requirement</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="btn">Submit Now &nbsp;<i class="fad fa-paper-plane"></i></a>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-5 col-lg-5">
+                    <h1>Contact Information</h1>
+
+                    <ul>
+                        <li><a href="#"><i class="far fa-map-marker-alt icons"></i> 123, Decliar Mark, <br><span style="margin-right: 45px;"></span>New York DC.</a>
+                        </li>
+                        <li><a href="#"><i class="far fa-mobile-android icons"></i> (+91) 775-546-6221</a></li>
+                        <li><a href="#"><i class="far fa-envelope-open-text icons"></i> info@sevanstar.com</a></li>
+                    </ul>
+
+                    <ol>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a> </li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a> </li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a> </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Map Integration -->
+    <section class="jumbotron map">
+        <div class="click">
+            <img src="./img/icons/street-view.png" class="icon" alt="" data-toggle="tooltip" data-placement="right" title="LOCATE US ON THE MAP">
+            
+        </div>
+        <p class="map-code"> <!--  style="filter: brightness( 61% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );" -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.6946109488863!2d73.02670933834739!3d26.271573137104504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c44ac81813f%3A0x5ecf0f92b99d0556!2sDMATICS!5e0!3m2!1sen!2sin!4v1608434359969!5m2!1sen!2sin"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </p>
+    </section>
+    
+    <script>
+        // Map collapse Js
+        $('.icon').click(function () {
+            $('.map-code').slideToggle('slow');
+        });
+
+        // Tooltips Js Initialization
+        $(function () {
+             $('[data-toggle="tooltip"]').tooltip()
+        })
+
+    </script>
+
+
+
+
+
+    <!--Footer-->
+    <footer class="jumbotron">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-sm-3">
+                        <h3 class="mb-3">About</h3>
+                        <p>With Great Team & Good Experience, we offers a wide range of varieties in all type of
+                            Furnitures.</p>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li> <!-- style="color: #3b5998;"-->
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li> <!-- style="color: #ea4c89;"-->
+                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li> <!-- style="color: #cb2027;"-->
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li> <!-- style="color: #55acee;"-->
+                        </ul>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-sm-3">
+                        <h3 class="mb-3">Quick links</h3>
+
+                        <ul>
+                            <li><a href="#"><i class="fas fa-circle icons"></i>Home</a></li>
+                            <li><a href="#"><i class="fas fa-circle icons"></i>Products</a></li>
+                            <li><a href="#"><i class="fas fa-circle icons"></i>About</a></li>
+                            <li><a href="#"><i class="fas fa-circle icons"></i>Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-sm-3">
+                        <h3>Contact</h3>
+
+                        <ul>
+                            <li><i class="fas fa-envelope icons"></i><a href="tel:"> &nbsp;&nbsp;(+91) 77554 66221</a>
+                            </li>
+                            <li><i class="fas fa-phone-alt icons"></i><a href="mailto:"> &nbsp;&nbsp;info@star.com</a>
+                            </li>
+                            <li style="pointer-events: none;"><i class="fas fa-map-marker-alt icons"></i><a
+                                    href="javascript:void(0)"> &nbsp;&nbsp; 123, Decliar Mark, New York DC.</a></li>
+                        </ul>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+                        <p>copyright © 2021. all rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--//Footer-->
+
+    <script>
+        new Pidie();
+    </script>
+</body>
+
+</html>

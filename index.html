@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css + bts-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product-slider.css">
+    <link rel="stylesheet" href="./css/pidie-0.0.8.css">
+
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="./js/pidie-0.0.8.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+
+    <!-- other js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="./js/fontAwesomeIcons.js"></script>
+    <script src="./js/navbarScripts.js"></script>
+    <script src="./js/product-slider.js"></script>
+    <script src="./js/auto-typed.js"></script>
+    <!-- <script src="./js/anime.min.js"></script> -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                7 STAR
+                <!-- <img src="./img/logo/logo4.png" height="55" alt="" loading="lazy"> -->
+            </a>
+
+            <button class="navbar-toggler" type="button" onclick="openSideNavOuter()">
+                <span class="hamburger">
+                    <img id="logo" src="./img/icons/menu-light.png" alt="" width="35px">
+                </span>
+            </button>
+
+            <!-- Primary side menu panel -->
+            <div id="sideNavOuter" class="side-nav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSideNavOuter()">&times;</a>
+                <div class="side-nav-content">
+                    <a href="index.html"> <i class="fad fa-home-lg-alt"></i>&nbsp; Home</a>
+                    <a href="#"> <i class="fad fa-layer-group"></i>&nbsp; Products</a>
+                    <a href="about.html"> <i class="fad fa-info-circle"></i>&nbsp; About</a>
+                    <a href="contact.html"> <i class="fad fa-at"></i>&nbsp; Contact</a>
+                </div>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- slider -->
+    <section class="banner">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p>Hi there!</p>
+                    <h1 class="typed" style="font-size: 55px;font-family: ProximaSoft-4;color: #ffffff"></h1>
+                    <hr style="background: rgb(131, 131, 131)">
+                    <p class="banner-p">With Great Team & Good Experience, we offers a wide range of varieties in all
+                        type of Furnitures. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Short Intro -->
+    <section class="intro jumbotron">
+        <div class="container text-center pb-4 pt-1">
+            <div class="content">
+                <!-- <h4>What we offer</h4> -->
+                <h1>Welcome to Us</h1>
+                <p>We sevan star International are accepted as an notable manufacturer, supplier and exporter we are
+                    specialized in antique Handicrafts furniture.</p>  <!-- include patio furniture ,retro furniture ,mid century
+                    ,French and Indian style furniture other like bedroom kitchen hospitality banqueting restaurant and
+                    multipurpose furniture are also include -->
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <img src="./img/icons/focus.png" alt="" width="85px">
+                    <h4>Prime Focus</h4>
+                    <p>Delivery on time is our strength never compromise with quality is our main object customer
+                        satisfaction is our teaching.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <img src="./img/icons/team.png" alt="" width="85px">
+                    <h4>Skilled Team </h4>
+                    <p>Great experienced team are our backbone and through this team we are capable of your every
+                        quality check parameter.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <img src="./img/icons/services.png" alt="" width="85px">
+                    <h4>Services</h4>
+                    <p>As genuine manufacturer we are able to cater for any special requirement that you may not find
+                        amongst our range.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product slider [Featured] -->
+    <section class="product-slider jumbotron">
+        <div class="container text-center pb-4 pt-1">
+            <div class="content">
+                <!-- <h4>See our</h4> -->
+                <h1>Featured Products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo quisquam distinctio ratione, voluptates illum ducimus praesentium.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row product-slider-inner">
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/1.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/2.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/3.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/4.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/5.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/6.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/7.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/8.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/9.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Exlusive Items -->
+    <section class="exlusive-banner jumbotron">
+        <div class="container">
+            <div class="bg-img">
+                <p>SHOP UNIQUE HAND MADE ITEMS</p>
+                <h3>Exclusive Items Created With Love</h3>
+                <a href="#">See More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- product slider [Exclusive]-->
+    <section class="product-slider jumbotron">
+        <div class="container text-center pb-4 pt-1">
+            <div class="content">
+                <!-- <h4>See our</h4> -->
+                <h1>Popular Products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo quisquam distinctio ratione, voluptates illum ducimus praesentium.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row product-slider-inner">
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/1.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/2.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/3.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/4.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/5.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/6.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/7.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/8.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/9.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Footer-->
+    <footer class="jumbotron">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-sm-3">
+                        <h3 class="mb-3">About</h3>
+                        <p>With Great Team & Good Experience, we offers a wide range of varieties in all type of Furnitures.</p>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>    <!-- style="color: #3b5998;"-->
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>   <!-- style="color: #ea4c89;"-->
+                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>   <!-- style="color: #cb2027;"-->
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li> <!-- style="color: #55acee;"-->
+                        </ul>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-sm-3">
+                        <h3 class="mb-3">Quick links</h3>
+
+                        <ul>
+                            <li><a href="#"><i class="fas fa-circle icons"></i>Home</a></li>
+                            <li><a href="#"><i class="fas fa-circle icons"></i>Products</a></li>
+                            <li><a href="#"><i class="fas fa-circle icons"></i>About</a></li>
+                            <li><a href="#"><i class="fas fa-circle icons"></i>Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-sm-3">
+                        <h3>Contact</h3>
+
+                        <ul>
+                            <li><i class="fas fa-envelope icons"></i><a href="tel:"> &nbsp;&nbsp;(+91) 77554 66221</a></li>
+                            <li><i class="fas fa-phone-alt icons"></i><a href="mailto:"> &nbsp;&nbsp;info@star.com</a></li>
+                            <li style="pointer-events: none;"><i class="fas fa-map-marker-alt icons"></i><a href="javascript:void(0)"> &nbsp;&nbsp; 123, Decliar Mark, New York DC.</a></li>
+                        </ul>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+                        <p>copyright © 2021. all rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--//Footer-->
+
+
+</body>
+
+</html>

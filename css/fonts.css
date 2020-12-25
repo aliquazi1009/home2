@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+/* -----Cerebi Sans-------- */
+@font-face {
+    font-family: ceb-1;
+    src: url(../fonts/CerebriSans/CerebriSans-Light.ttf);
+}
+@font-face {
+    font-family: ceb-2;
+    src: url(../fonts/CerebriSans/CerebriSans-Regular.ttf);
+}
+@font-face {
+    font-family: ceb-3;
+    src: url(../fonts/CerebriSans/CerebriSans-Medium.ttf);
+}
+@font-face {
+    font-family: ceb-4;
+    src: url(../fonts/CerebriSans/CerebriSans-Bold.ttf);
+}
+@font-face {
+    font-family: ceb-5;
+    src: url(../fonts/CerebriSans/CerebriSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: ceb-6;
+    src: url(../fonts/CerebriSans/CerebriSans-Heavy.ttf);
+}
+
+/* ----------Helvetica Neue-------------- */
+@font-face {
+    font-family: HelveticaNeue-1;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Ultralight.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-2;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Thin.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-3;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Light.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-4;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Regular.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-5;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Medium.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-6;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Bold.otf);
+}
+
+
+/* --------------Product Sans--------------- */
+
+@font-face {
+    font-family: 'ProductSans-1';
+    src: local('Product Sans Thin Regular'), url(../fonts/ProductSans/ProductSans-Thin.woff) format('woff');
+} 
+@font-face {
+    font-family: 'ProductSans-2';
+    src: local('Product Sans Light Regular'), url(../fonts/ProductSans/ProductSans-Light.woff) format('woff');
+}
+@font-face {
+    font-family: 'ProductSans-3';
+    src: local('Product Sans Regular'), url(../fonts/ProductSans/ProductSans-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'ProductSans-4';
+    src: local('Product Sans Medium Regular'), url(../fonts/ProductSans/ProductSans-Medium.woff) format('woff');
+}
+@font-face{
+    font-family: 'ProductSans-5';
+    src: local('Product Sans Bold'), url(../fonts/ProductSans/ProductSans-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'ProductSans-6';
+    src: local('Product Sans Black Regular'), url(../fonts/ProductSans/ProductSans-Black.woff) format('woff');
+}
+    
+    
+/* ---------Proxima Nova-------------- */
+@font-face {
+    font-family: ProximaNova-4;
+    src: url(../fonts/ProximaNova/ProximaNova-Semibold.ttf);
+}
+@font-face {
+    font-family: ProximaNova-1;
+    src: url(../fonts/ProximaNova/ProximaNova-Thin.ttf);
+}
+@font-face {
+    font-family: ProximaNova-2;
+    src: url(../fonts/ProximaNova/ProximaNova-Light.ttf);
+}
+@font-face {
+    font-family: ProximaNova-3;
+    src: url(../fonts/ProximaNova/ProximaNova-Regular.ttf);
+}
+@font-face {
+    font-family: ProximaNova-5;
+    src: url(../fonts/ProximaNova/ProximaNova-Bold.ttf);
+}
+
+
+
+/* ---------Proxima Soft-------------- */
+@font-face {
+    font-family: ProximaSoft-4;
+    src: url(../fonts/ProximaSoft/ProximaSoft-Semibold.ttf);
+}
+@font-face {
+    font-family: ProximaSoft-3;
+    src: url(../fonts/ProximaSoft/ProximaSoft-Medium.ttf);
+}
+@font-face {
+    font-family: ProximaSoft-1;
+    src: url(../fonts/ProximaSoft/ProximaSoft-Light.ttf);
+}
+@font-face {
+    font-family: ProximaSoft-2;
+    src: url(../fonts/ProximaSoft/ProximaSoft-Regular.ttf);
+}
+@font-face {
+    font-family: ProximaSoft-5;
+    src: url(../fonts/ProximaSoft/ProximaSoft-Bold.ttf);
+}
+@font-face {
+    font-family: ProximaSoft-6;
+    src: url(../fonts/ProximaSoft/ProximaSoft-ExtraBold.ttf);
+}
